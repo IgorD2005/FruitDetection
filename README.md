@@ -1,12 +1,12 @@
 Fruit Image Classifier - CNN
 
-A convolutional neural network trained to classify three fruit categories: banana, orange, and lemon. Built with TensorFlow/Keras as part of a computer vision course at the Polish-Japanese Academy of Information Technology.
+A convolutional neural network trained to classify three fruit categories: banana, orange, and lemon. Built with TensorFlow/Keras as part of a computer vision course.
 
 
 Model Architecture
 
 Four convolutional blocks are stacked sequentially, each consisting of a Conv2D layer followed by MaxPooling2D. Filter counts increase from 16 through 32 and 64 to a final 64, allowing progressively more abstract features to be extracted. A Dense layer of 128 neurons with Dropout(0.3) precedes the Softmax output layer for 3-class classification.
-Input shape: 128×128×3
+Input shape: 128x128x3
 
 
 
@@ -20,7 +20,7 @@ Regularisation: Dropout(0.3), EarlyStopping(patience=5)
 
 Dataset
 
-~480 images per class were used across three categories: banana, orange, and lemon. An 80/20 training-validation split was applied, with augmentation techniques — rotation, zoom, horizontal flip, brightness variation, and shear — applied exclusively to the training subset.
+~480 images per class were used across three categories: banana, orange, and lemon. An 80/20 training-validation split was applied, with augmentation techniques - rotation, zoom, horizontal flip, brightness variation, and shear - applied exclusively to the training subset.
 
 Results
 
