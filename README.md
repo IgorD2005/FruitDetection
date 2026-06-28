@@ -75,9 +75,9 @@ The best-performing model was automatically saved using **ModelCheckpoint**.
 .
 ├── lab5.py                   # Training and inference pipeline
 ├── dataset/                  # Images organized by class
-├── best_model.keras          # Saved model weights
-├── historia_treningu.png     # Training & validation accuracy/loss
-└── wynik_klasyfikacji.png    # Example classification result
+├── best_model.keras          # Saved model weights - generated after training
+├── historia_treningu.png     # Training & validation accuracy/loss - generated after training
+└── wynik_klasyfikacji.png    # Example classification result - generated after training
 ```
 
 ---
